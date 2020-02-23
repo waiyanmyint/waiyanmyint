@@ -71,7 +71,7 @@ while run:
 
 	keys = pygame.key.get_pressed()
 
-	if keys[pygame.K_LEFT] and x>vel:
+	if keys[pygame.K_LEFT] and x > vel:
 		x -= vel
 		left = True
 		right = False
